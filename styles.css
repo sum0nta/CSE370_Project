@@ -1,0 +1,104 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, button {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.chat-window {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  .messageSend {
+    margin-bottom: 10px;
+  }
+  .message .username {
+    font-weight: bold;
+  }
+
+.upload-button-container {
+    position: fixed;
+    top: 80px;
+    right: 35px;
+    
+    
+}
+.playlist-button-container {
+    position: fixed;
+    top: calc(80px + 20px);
+    right: 35px;
+     
+}
+.playlist-button-container {
+    position: fixed;
+    top: calc(calc(80px + 20px)+20px);
+    right: 35px;
+     
+}
+.chatroom-button-container{
+    position: fixed;
+    top: calc(80px + 40px);
+    right: 35px;
+}
+.follow-button-container{
+    position: fixed;
+    top: calc(80px + 60px);
+    right: 35px;
+}
+
+.search-button-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20%;
+        
+    }
+
+.login-button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button[name="login"], button[name="search"], button[name="upload"], button[name="playlist"] {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto; 
+}
+
+    #music-player {
+        position: absolute;
+        bottom: 0;
+        left: 5;
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
+
+    audio {
+        display: inline-block;
+        margin: 0 auto;
+    }
+ 
+    
+  
+    .logout-button {
+        width: auto;
+    }
