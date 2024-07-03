@@ -1,6 +1,6 @@
-# CSE370_Project
+# Talk&Tunes
 A music streaming platform with integration of a chatting system. It is a mix between a streaming platform like Spotify and a chatting software like Discord.
-Project Features
+/nProject Features
 **User Management:**
 Sign up, login, and logout functionalities for users.
 **Song Management:**
